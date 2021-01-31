@@ -1,0 +1,90 @@
+{
+  "data": [
+    {
+      "id": 100,
+      "authName": "用户管理",
+      "path": "users",
+      "order": 1,
+      "children": [
+        {
+          "id": 101,
+          "authName": "用户列表",
+          "path": "users",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "authName": "权限管理",
+      "path": "rights",
+      "order": 2,
+      "children": [
+        {
+          "id": 111,
+          "authName": "用户权限",
+          "path": "rights",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "authName": "商品管理",
+      "path": "goods",
+      "order": 3,
+      "children": [
+        {
+          "id": 121,
+          "authName": "数码产品",
+          "path": "goods1",
+          "children": []
+        },
+        {
+          "id": 122,
+          "authName": "休闲娱乐",
+          "path": "goods2",
+          "children": []
+        },
+        {
+          "id": 123,
+          "authName": "热门服装",
+          "path": "goods3",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "authName": "订单管理",
+      "path": "orders",
+      "order": 4,
+      "children": [
+        {
+          "id": 131,
+          "authName": "订单列表",
+          "path": "orders",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "authName": "数据统计",
+      "path": "report",
+      "order": 5,
+      "children": [
+        {
+          "id": 141,
+          "authName": "数据列表",
+          "path": "report",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "mata": {
+    "msg": "获取菜单列表成功",
+    "status": 200
+  }
+}
